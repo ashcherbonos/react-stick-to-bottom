@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "strict": true,
+      "jsx": "react",
+      "declaration": true,
+      "esModuleInterop": true,
+      "target": "es5",
+      "module": "commonjs",
+      "outDir": "./lib",
+      "moduleResolution": "node"
+    },
+    "include": ["src/**/*.ts", "src/**/*.tsx"],
+    "exclude": ["node_modules", "**/__tests__/*"]
+  }
